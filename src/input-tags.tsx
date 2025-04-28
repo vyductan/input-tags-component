@@ -1,10 +1,10 @@
 import React from "react";
 import { useMergedState } from "@rc-component/util";
 
-import type { InputProps } from "@acme/ui/input";
-import { cn } from "@acme/ui";
-import { inputSizeVariants, inputVariants } from "@acme/ui/input";
-import { Tag } from "@acme/ui/tag";
+import type { InputProps } from "@acme/ui/components/input";
+import { inputSizeVariants, inputVariants } from "@acme/ui/components/input";
+import { Tag } from "@acme/ui/components/tag";
+import { cn } from "@acme/ui/lib/utils";
 
 type InputTagsProps = Omit<
   InputProps,
